@@ -179,7 +179,8 @@ header {
   .jumbo_text a img {
     width: 100%;
   }
-  .col-offset-xs-1{
-    display: none;
+  .height_50 {
+    height: 50px;
+    background-color: red;
   }
 }
