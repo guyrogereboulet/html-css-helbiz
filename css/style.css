@@ -104,6 +104,17 @@ header {
 .link {
   margin:30px;
   font-size: 2em;
+  color: #0070c8;
+}
+/* #come mettere un after per fare una "freccietta" */
+.link::after {
+    content: ">";
+    display: table;
+    clear: both;
+    display: inline;
+    margin-left: 3%;
+    font-size: 1em;
+    color: #0070c8;
 }
 
 .margin_top_150 {
@@ -128,6 +139,52 @@ header {
 
 .background_white {
   background-color: #FFFF;
+}
+
+.padding_bottom {
+  padding-top: 400px;
+}
+
+.padding_left {
+  padding-left: 100px;
+}
+
+
+.slider {
+  background-image: url(../img/HelbizBanner.jpg);
+  height: 500px;
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.iphone {
+  height: 600px;
+  display:inline-block;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container .absolute {
+ text-align: center;
+}
+
+.col-lg-4.padding_bottom h2 {
+  font-size: 3em;
+}
+
+.col-lg-4.padding_bottom.padding_left {
+  font-size: 1.5em
 }
 
 
