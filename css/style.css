@@ -89,6 +89,36 @@ header {
   margin-bottom: 0.8rem;
 }
 
+.text_align_center {
+  text-align: center;
+}
+
+.img_resize_20 {
+  height: 20px;
+}
+
+.img_resize_300 {
+  height: 300px;
+}
+
+.link {
+  margin:30px;
+  font-size: 2em;
+}
+
+.margin_top_150 {
+  margin-top: 150px;
+}
+
+.margin_bottom_20 {
+  margin-bottom: 20px;
+}
+
+.padding {
+  padding: 20px;
+}
+
+
 @media screen and (max-width: 992px) and (min-width: 768px) {
   .header-top {
     padding: 0 2%;
