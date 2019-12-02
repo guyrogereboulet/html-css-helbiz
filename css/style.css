@@ -4,7 +4,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 10px;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .container_1000 {
@@ -110,12 +110,24 @@ header {
   margin-top: 150px;
 }
 
+.margin_bottom_150 {
+  margin-bottom: 150px;
+}
+
 .margin_bottom_20 {
   margin-bottom: 20px;
 }
 
 .padding {
   padding: 20px;
+}
+
+.background_grey {
+  background-color: #FAFAFA;
+}
+
+.background_white {
+  background-color: #FFFF;
 }
 
 
@@ -141,6 +153,7 @@ header {
 @media screen and (max-width: 768px) {
   body {
     font-size: 8px;
+    margin: 0 auto;
   }
   .xs_display_block {
     display: block;
@@ -165,5 +178,8 @@ header {
   }
   .jumbo_text a img {
     width: 100%;
+  }
+  .col-offset-xs-1{
+    display: none;
   }
 }
